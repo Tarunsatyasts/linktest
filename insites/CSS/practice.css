@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    background-image: url("../images/1.jpg");
+    height:700px;
+    width:100%;
+    margin:0px;
+   box-sizing: border-box;
+  
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+   align-items: center;
+  
+    position: sticky;
+  
+    left:20%;
+    padding:10px;
+    color:white;
+}
+
+.nav_items ul {
+    display: flex;
+    gap:20px; 
+    
+    
+    }
+
+    .nav_items ul li{
+        list-style: none;
+       }
+       
+       
+       .btn1{
+        margin-left:10px;
+       }
+
+       .items i{
+       margin-left:10px;
+       }
+
+
+       .text{
+        margin:20px 40px;
+        color:white;
+        position: absolute;
+        text-align: center;
+        top: 30%;
+        left: 20%;
+       }
+
+       .text h2{
+     font-family: 'Dancing Script', cursive;
+font-size: 40px;
+       }
+
+       .text h1{
+     font-family: 'Dancing Script', cursive;
+       
+font-size: 85px;
+}
+
+
+       .text p{
+        font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+
+       }
+
+
+
+       h1{
+        margin:0px;
+       }
+
+
+       h2{
+        margin:0px;
+       }
+
+.btn{
+
+    width: 30%;
+    height:50px;
+    border-radius: 20px;
+    background-color: rgba(134, 243, 138, 0.929);
+}
+.second{
+    width:100%;
+   
+   padding:30px;
+    display: flex;
+    justify-content: space-evenly;
+    margin:30px 20px;
+}
+
+.second_1{
+   width:40%;
+   height:250px;
+   text-align: center;
+  
+}
+.images{
+    width:50%;
+   
+}
+.sec_btn{
+    width: 30%;
+    height:45px;
+    border-radius: 20px;
+    font-weight: 500;
+
+}
+
+.div_text{
+    display: flex;
+    justify-content: space-between;
+    gap:15px;
+}
+.div_3{
+    width:20%;
+    height:100px;
+    background-color:green;
+    display: flex;
+    justify-content:space-around;
+}
+.three_1 img{
+    width:100%;
+}
+ 
+.container_main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
